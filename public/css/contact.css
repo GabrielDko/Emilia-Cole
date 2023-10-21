@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+#nav {
+    text-align: right;
+}
+
+ul#nav li{
+    display: inline;
+}
+
+body{
+    font-family: "raleway";
+
+}
+
+
+#redes {
+    text-align: right;
+}
+ul#redes li{
+    text-decoration: none;
+    display:inline;
+    letter-spacing: 5px;
+
+}
+h1 {
+    font-size: 40px;
+}
+h4 {
+    color: #1aa8ad;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}

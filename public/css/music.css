@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body {
+    font-family: "raleway";
+    margin: 0px;
+}
+#nav {
+    text-align: right;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 12px;
+}
+
+.seccion_musica{
+    margin-left: 5px ;
+}
+
+.seccion_musica h1 {
+    font-size: 50px;
+}
+header {
+    background-image: url("/img/emilia-music-top.jpg");
+    padding: 10px ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+ul#nav li{
+    display: inline;
+}
+ul#redes li{
+    display:inline;
+    letter-spacing: 2px;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
