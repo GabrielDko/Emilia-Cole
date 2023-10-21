@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body {
+    font-family: "raleway";
+    background-image: url("/img/emilia-about.jpg");
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: right top;
+    margin: 0px;
+}
+
+#nav {
+    text-align: right;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 12px;
+
+}
+
+ul#nav li{
+    display: inline;
+}
+
+#redes {
+    text-align: right;
+}
+ul#redes li{
+    text-decoration: none;
+    display:inline;
+    letter-spacing: 5px;
+}
+
+a {
+    color:black;
+    text-decoration: none;
+}
+h1 {
+    font-size: 50px;
+    margin-left: 5px;
+}
+
+#texto {
+    color: #1aa8ad;
+    padding:30px 0px 0px 30px ;
+}
+
+#texto p {
+    font-size: 25px;
+}

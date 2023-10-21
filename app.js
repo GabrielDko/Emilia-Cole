@@ -5,10 +5,10 @@ const path = require("path")
 app.listen(3030, ()=> {console.log("Arrancando el servidor en la ruta 3030")})
 
 app.get("/", (req,res)=>{
-    res.sendFile(path.join(__dirname,"/views/home.html"))
+    res.sendFile(path.join(__dirname,"/views/index.html"))
 })
-app.get("/views/home.html",(req,res)=>{
-    res.sendFile(path.join(__dirname,"/views/home.html"))
+app.get("/views/index.html",(req,res)=>{
+    res.sendFile(path.join(__dirname,"/views/index.html"))
 })
 app.get("/views/about.html",(req,res)=>{
     res.sendFile(path.join(__dirname,"/views/about.html"))
